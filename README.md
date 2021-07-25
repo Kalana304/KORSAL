@@ -6,6 +6,10 @@ Real-time and online action localization in a video is a critical yet highly cha
 both online and offline methods. Moreover, our model achieves a frame rate of 41.8 FPS, which is a 10.7% improvement over contemporary real-time methods.
 </p>
 
+<p align="center">
+  <img src="figures/NewArchitecture.png">
+</p>
+
 ## Table of Content
   1. [Installation](#installation)
   2. [Datasets](#datasets)
