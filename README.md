@@ -25,7 +25,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 ## Datasets
 <p align='justify'>
-We evaluate our framework on two datasets, <a href=https://www.crcv.ucf.edu/data/UCF101.php>UCF101-24</a> and [J-HMDB-21](http://jhmdb.is.tue.mpg.de/). UCF101-24 is a subset of UCF101 [1] with ST labels, having 3207 untrimmed videos with 24 action classes, that may contain multiple instances for the same action class. J-HMDB-21 is a subset of the HMDB-51 dataset [2] having 928 temporally trimmed videos with 21 actions, each containing a single action instance. 
+We evaluate our framework on two datasets, <a href=https://www.crcv.ucf.edu/data/UCF101.php>UCF101-24</a> and <a href=http://jhmdb.is.tue.mpg.de/>J-HMDB21</a>. UCF101-24 is a subset of UCF101 [1] with ST labels, having 3207 untrimmed videos with 24 action classes, that may contain multiple instances for the same action class. J-HMDB-21 is a subset of the HMDB-51 dataset [2] having 928 temporally trimmed videos with 21 actions, each containing a single action instance. 
 
 Download the datasets and extract the frames. Place the extracted frames in <emp>rgb-images</emp> in the respective dataset directory in [Datasets](https://github.com/Kalana304/KORSAL/tree/main/Datasets). The data directory should look as follows:
 </p>
