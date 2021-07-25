@@ -40,12 +40,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
         <th colspan=4 scope="colgroup">v-mAP</th>
      </tr>
      
-      <tr>
-        <th scope="col">0.2</th>
-        <th scope="col">0.5</th>
-        <th scope="col">0.75</th>
-        <th scope="col">0.5:0.95</th>
-      </tr>
+      
     </thead>
     <tbody>
         <tr>
