@@ -86,7 +86,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 </table>
 
 ###### Inference Run Time Analysis
-|  Framework Module  |    Ours   |   A + DSIM |   A + I_{t-1} |     A      |     A + RTF    |      A + AF    | 
+|  Framework Module  |    Ours   |   A + DSIM |   A + I<sub>t-1</sub> |     A      |     A + RTF    |      A + AF    | 
 | :----------------: |:---------:| :---------:| :-----------: | :--------: | :------------: | :------------: |
 
 ## Citation
