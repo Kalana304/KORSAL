@@ -61,37 +61,41 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
     <th scope="col">0.5</th>
     <th scope="col">0.75</th>
     <th scope="col">0.5:0.95</th>
+    <th scope="col">0.2</th>
+    <th scope="col">0.5</th>
+    <th scope="col">0.75</th>
+    <th scope="col">0.5:0.95</th>
   </tr>
   <tr>
     <td scope="row">Saha et al. [3]</td>
     <td>-</td> <td>66.6</td> <td>36.4</td> <td>7.9</td> <td>14.4</td>
   </tr>
   <tr>
-    <th scope="row">Peng et al. [4]</th>
+    <td scope="row">Peng et al. [4]</td>
     <td>65.7</td> <td>72.9</td> <td>-</td> <td>-</td> <td>-</td>
   </tr>
   <tr>  
-    <th scope="row">Zhang et al. [5]</th>
+    <td scope="row">Zhang et al. [5]</td>
     <td>67.7</td> <td>74.8</td> <td>46.6</td> <td>16.7</td> <td>21.9</td>
   </tr>
   <tr>
-    <th scope="row">ROAD+AF [6]</th>
+    <td scope="row">ROAD+AF [6]</td>
     <td>-</td> <td>73.5</td> <td>46.3</td> <td>15.0</td> <td>20.4</td>
   </tr>
   <tr>
-    <th scope="row">ROAD+RTF [6]</th>
+    <td scope="row">ROAD+RTF [6]</td>
     <td>-</td> <td>70.2</td> <td>43.0</td> <td>14.5</td> <td>19.2</td>
   </tr>
   <tr>
-    <th scope="row">ROAD (A) [6]</th>
+    <td scope="row">ROAD (A) [6]</td>
     <td>-</td> <td>69.8</td> <td>40.9</td> <td>15.5</td> <td>18.7</td>
   </tr>
   <tr>
-    <th scope="row">Ours (A) [6]</th>
+    <td scope="row">Ours (A) [6]</td>
     <td>71.8</td> <td>70.2</td> <td>44.3</td> <td>16.6</td> <td>20.6</td>
   </tr>
   <tr>
-    <th scope="row">Ours [6]</th>
+    <td scope="row">Ours [6]</td>
     <td>74.7</td> <td>72.7</td> <td>43.1</td> <td>16.8</td> <td>20.2</td>
   </tr>
 </table>
