@@ -111,6 +111,7 @@ we present results on action localization using only the appearance (A) informat
 We analyze the inference times for different variations of our pipeline based on the different modules in the framework and the overall inference time in the below Table.
 Evidently, any preprocessing will have an impact on the inference time. Thus, the SS-map achieves a balance between the run-time and the accuracy over the other variations in the framework.
 </p>
+
 ###### Inference Run Time Analysis
 |  Framework Module  |    Ours   |   A + DSIM |   A + I<sub>t-1</sub> |     A      |     A + RTF    |      A + AF    | 
 | :---------------- |:---------:| :---------:| :-----------: | :-----------: | :------------: | :------------: |
