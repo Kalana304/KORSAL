@@ -41,7 +41,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 
 ## Performance
 
-###### ST action localization results (v-mAP) on UCF101-24
+###### ST action localization results (v-mAP) on UCF101-24 and J-HMDB21 datasets
 <table>
   <col>
   <colgroup span="5"></colgroup>
@@ -66,57 +66,31 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
   </tr>
   <tr>
     <td scope="row">Peng et al. [4]</td>
-    <td>65.7</td> <td>72.9</td> <td>-</td> <td>-</td> <td>-</td>
+    <td align="center" valign="center">65.7</td> <td align="center" valign="center">72.9</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td>
   </tr>
   <tr>  
     <td scope="row">Zhang et al. [5]</td>
-    <td>67.7</td> <td>74.8</td> <td>46.6</td> <td>16.7</td> <td>21.9</td>
+    <td align="center" valign="center">67.7</td> <td align="center" valign="center">74.8</td> <td align="center" valign="center">46.6</td> <td align="center" valign="center">16.7</td> <td align="center" valign="center">21.9</td>
   </tr>
   <tr>
     <td scope="row">ROAD+AF [6]</td>
-    <td>-</td> <td>73.5</td> <td>46.3</td> <td>15.0</td> <td>20.4</td>
+    <td align="center" valign="center">-</td> <td align="center" valign="center">73.5</td> <td align="center" valign="center">46.3</td> <td align="center" valign="center">15.0</td> <td align="center" valign="center">20.4</td>
   </tr>
   <tr>
     <td scope="row">ROAD+RTF [6]</td>
-    <td>-</td> <td>70.2</td> <td>43.0</td> <td>14.5</td> <td>19.2</td>
+    <td align="center" valign="center">-</td> <td align="center" valign="center">70.2</td> <td align="center" valign="center">43.0</td> <td align="center" valign="center">14.5</td> <td align="center" valign="center">19.2</td>
   </tr>
   <tr>
     <td scope="row">ROAD (A) [6]</td>
-    <td>-</td> <td>69.8</td> <td>40.9</td> <td>15.5</td> <td>18.7</td>
+    <td align="center" valign="center">-</td> <td align="center" valign="center">69.8</td> <td align="center" valign="center">40.9</td> <td align="center" valign="center">15.5</td> <td align="center" valign="center">18.7</td>
   </tr>
   <tr>
     <td scope="row">Ours (A) [6]</td>
-    <td>71.8</td> <td>70.2</td> <td>44.3</td> <td>16.6</td> <td>20.6</td>
+    <td align="center" valign="center">71.8</td> <td align="center" valign="center">70.2</td> <td align="center" valign="center">44.3</td> <td align="center" valign="center">16.6</td> <td align="center" valign="center">20.6</td>
   </tr>
   <tr>
     <td scope="row">Ours [6]</td>
-    <td>74.7</td> <td>72.7</td> <td>43.1</td> <td>16.8</td> <td>20.2</td>
-  </tr>
-</table>
-
-###### ST action localization results (v-mAP) on J-HMDB21
-<table>
-  <col>
-  <colgroup span="4"></colgroup>
-  
-  <tr>
-    <td rowspan="2">Method</td>
-    <td rowspan="2">f-mAP @0.5</td>
-    <th colspan="4" scope="colgroup">v-mAP</th>
-  </tr>
-  <tr>
-    <th scope="col">0.2</th>
-    <th scope="col">0.5</th>
-    <th scope="col">0.75</th>
-    <th scope="col">0.5:0.95</th>
-  </tr>
-  <tr>
-    <th scope="row">Teddy Bears</th>
-    <td>50,000</td>
-    <td>30,000</td>
-    <td>100,000</td>
-    <td>80,000</td>
-    <td>80,000</td>
+    <td align="center" valign="center">74.7</td> <td align="center" valign="center">72.7</td> <td align="center" valign="center">43.1</td> <td align="center" valign="center">16.8</td> <td align="center" valign="center">20.2</td>
   </tr>
 </table>
 
