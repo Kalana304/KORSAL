@@ -1,0 +1,1 @@
+Download the dataset by visiting  https://www.crcv.ucf.edu/data/UCF101.php. Make sure the data will be placed in this directory as per the shown directory hierachy in README.md.
