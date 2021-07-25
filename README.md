@@ -51,9 +51,9 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
     <th colspan="5" scope="colgroup">UCF101-24</th>
     <th colspan="5" scope="colgroup">J-HMDB21</th>
   <tr>
-    <th rowspan="2">f-mAP @0.5</th>
+    <th rowspan="2">f-mAP <br/> @0.5</th>
     <th colspan="4" scope="colgroup">v-mAP</th>
-    <th rowspan="2">f-mAP @0.5</th>
+    <th rowspan="2">f-mAP <br/> @0.5</th>
     <th colspan="4" scope="colgroup">v-mAP</th>
   </tr>
   <tr>
