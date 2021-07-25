@@ -59,25 +59,22 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
   </tr>
   <tr>
     <th scope="row">Saha et al. [3]</th>
+<<<<<<< HEAD
     <td>50,000</td>
     <td>30,000</td>
     <td>100,000</td>
     <td>80,000</td>
     <td>80,000</td>
+=======
+    <td>-</td> <td>66.6</td> <td>36.4</td> <td>7.9</td> <td>14.4</td>
+>>>>>>> b135b0af9b6717fb25cd8b25f1096771eaa36a70
   </tr>
   <tr>
-    <th scope="row">Saha et al. [3]</th>
-    <td>50,000</td> <td>30,000</td> <td>100,000</td> <td>80,000</td> <td>80,000</td>
+    <th scope="row">Peng et al. [4]</th>
+    <td>65.7</td> <td>72.9</td> <td>-</td> <td>-</td> <td>-</td>
   </tr>
   <tr>
-    <th scope="row">Saha et al. [3]</th>
-    <td>50,000</td>
-    <td>30,000</td>
-    <td>100,000</td>
-    <td>80,000</td>
-    <td>80,000</td>
-  </tr>
-  <tr>
+<<<<<<< HEAD
     <th scope="row">Saha et al. [3]</th>
     <td>50,000</td>
     <td>30,000</td>
@@ -92,6 +89,39 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
     <td>100,000</td>
     <td>80,000</td>
     <td>80,000</td>
+  </tr>
+  <tr>
+    <th scope="row">Saha et al. [3]</th>
+    <td>50,000</td>
+    <td>30,000</td>
+    <td>100,000</td>
+    <td>80,000</td>
+    <td>80,000</td>
+=======
+    <th scope="row">Zhang et al. [5]</th>
+    <td>67.7</td> <td>74.8</td> <td>46.6</td> <td>16.7</td> <td>21.9</td>
+  </tr>
+  <tr>
+    <th scope="row">ROAD+AF [6]</th>
+     
+    <td>-</td> <td>73.5</td> <td>46.3</td> <td>15.0</td> <td>20.4</td>
+  </tr>
+  <tr>
+    <th scope="row">ROAD+RTF [6]</th>
+    <td>-</td> <td>70.2</td> <td>43.0</td> <td>14.5</td> <td>19.2</td>
+  </tr>
+  <tr>
+    <th scope="row">ROAD (A) [6]</th>
+    <td>-</td> <td>69.8</td> <td>40.9</td> <td>15.5</td> <td>18.7</td>
+  </tr>
+  <tr>
+    <th scope="row">Ours (A) [6]</th>
+    <td>71.8</td> <td>70.2</td> <td>44.3</td> <td>16.6</td> <td>20.6</td>
+  </tr>
+  <tr>
+    <th scope="row">Ours [6]</th>
+    <td>74.7</td> <td>72.7</td> <td>43.1</td> <td>16.8</td> <td>20.2</td>
+>>>>>>> b135b0af9b6717fb25cd8b25f1096771eaa36a70
   </tr>
 </table>
 
