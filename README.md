@@ -8,6 +8,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 <p align="center">
   <img src="figures/NewArchitecture.png">
+  <em>Proposed Architecture</em>
 </p>
 
 ## Table of Content
