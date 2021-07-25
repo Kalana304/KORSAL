@@ -47,13 +47,13 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
   <colgroup span="5"></colgroup>
   <colgroup span="4"></colgroup>
   <tr>
-    <td rowspan="3">Method</td>
+    <th rowspan="3">Method</th>
     <th colspan="5" scope="colgroup">UCF101-24</th>
     <th colspan="5" scope="colgroup">J-HMDB21</th>
   <tr>
-    <td rowspan="2">f-mAP @0.5</td>
+    <th rowspan="2">f-mAP @0.5</th>
     <th colspan="4" scope="colgroup">v-mAP</th>
-    <td rowspan="2">f-mAP @0.5</td>
+    <th rowspan="2">f-mAP @0.5</th>
     <th colspan="4" scope="colgroup">v-mAP</th>
   </tr>
   <tr>
@@ -63,7 +63,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
     <th scope="col">0.5:0.95</th>
   </tr>
   <tr>
-    <th scope="row">Saha et al. [3]</th>
+    <td scope="row">Saha et al. [3]</td>
     <td>-</td> <td>66.6</td> <td>36.4</td> <td>7.9</td> <td>14.4</td>
   </tr>
   <tr>
