@@ -24,6 +24,14 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 ## Installation
 
 ## Datasets
+We evaluate our framework on two datasets, [UCF101-24](https://www.crcv.ucf.edu/data/UCF101.php) and [J-HMDB-21](http://jhmdb.is.tue.mpg.de/). UCF101-24 is a subset of UCF101 [1] with ST labels, having 3207 untrimmed videos with 24 action classes, that may contain multiple instances for the same action class. J-HMDB-21 is a subset of the HMDB-51 dataset [2] having 928 temporally trimmed videos with 21 actions, each containing a single action instance. 
+
+Download the datasets and extract the frames. Place the extracted frames in <emp>rgb-images</emp> in the respective dataset directory in [Datasets](https://github.com/Kalana304/KORSAL/tree/main/Datasets). The data directory should look as follows:
+
+<p align="center">
+  <img src="figures/sample directory tree.png">
+  <em>Sample directory tree for JHMDB21</em>
+</p>
 
 ## Training CenterNet
 
@@ -97,3 +105,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 ## Citation
 
 ## Reference
+[1] Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. Ucf101: A dataset of 101 human actions classes from videos in the wild. arXiv preprint arXiv:1212.0402, 2012.
+[2] H. Jhuang, J. Gall, S. Zuffi, C. Schmid, and M. J. Black. Towards understanding action
+recognition. In International Conf. on Computer Vision (ICCV), pages 3192–3199,
+December 2013.

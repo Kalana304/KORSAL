@@ -1,0 +1,1 @@
+Download the dataset by visiting  http://jhmdb.is.tue.mpg.de/. Make sure the data will be placed in this directory as per the shown directory hierachy in README.md.
