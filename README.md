@@ -42,7 +42,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 ## Performance
 
 ###### ST action localization results (v-mAP) on UCF101-24 and J-HMDB21 datasets
-<table>
+<table style="border: 5px solid #990000; border-collapse: collapse">
   <col>
   <colgroup span="5"></colgroup>
   <colgroup span="4"></colgroup>
