@@ -105,7 +105,8 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 ## Citation
 
 ## Reference
-[1] Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. Ucf101: A dataset of 101 human actions classes from videos in the wild. arXiv preprint arXiv:1212.0402, 2012.
+[1] Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. Ucf101: A dataset of 101 human actions classes from videos in the wild. arXiv preprint arXiv:1212.0402, 2012. \\
+
 [2] H. Jhuang, J. Gall, S. Zuffi, C. Schmid, and M. J. Black. Towards understanding action
 recognition. In International Conf. on Computer Vision (ICCV), pages 3192–3199,
 December 2013.
