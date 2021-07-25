@@ -57,18 +57,12 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
     <th colspan="4" scope="colgroup">v-mAP</th>
   </tr>
   <tr>
-    <th scope="col">0.2</th>
-    <th scope="col">0.5</th>
-    <th scope="col">0.75</th>
-    <th scope="col">0.5:0.95</th>
-    <th scope="col">0.2</th>
-    <th scope="col">0.5</th>
-    <th scope="col">0.75</th>
-    <th scope="col">0.5:0.95</th>
+    <th scope="col">0.2</th> <th scope="col">0.5</th> <th scope="col">0.75</th> <th scope="col">0.5:0.95</th>
+    <th scope="col">0.2</th> <th scope="col">0.5</th> <th scope="col">0.75</th> <th scope="col">0.5:0.95</th>
   </tr>
   <tr>
     <td scope="row">Saha et al. [3]</td>
-    <td>-</td> <td>66.6</td> <td>36.4</td> <td>7.9</td> <td>14.4</td>
+    <td style="text-align: center; vertical-align: middle;">-</td> <td style="text-align: center; vertical-align: middle;">66.6</td> <td style="text-align: center; vertical-align: middle;">36.4</td> <td style="text-align: center; vertical-align: middle;">7.9</td> <td style="text-align: center; vertical-align: middle;">14.4</td>
   </tr>
   <tr>
     <td scope="row">Peng et al. [4]</td>
