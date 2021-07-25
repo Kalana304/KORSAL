@@ -40,6 +40,10 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 ## Online Tube Generation
 
 ## Performance
+<p align='justify'>
+We describe our experimental results and compare them with state-of-the-art offline and online methods that use either RGB or both RGB and OF inputs. Further, for comparison
+we present results on action localization using only the appearance (A) information extracted by a single frame. The results of our proposed method presented in Table demonstrate that we are able to achieve state-of-the-art performance.
+</p >
 
 ###### ST action localization results (v-mAP) on UCF101-24 and J-HMDB21 datasets
 <table style="border: 5px solid #990000; border-collapse: collapse">
