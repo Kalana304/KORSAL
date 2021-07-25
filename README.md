@@ -48,7 +48,7 @@ we present results on action localization using only the appearance (A) informat
 </p >
 
 ###### ST action localization results (v-mAP) on UCF101-24 and J-HMDB21 datasets
-<table style="border: 5px solid #990000; border-collapse: collapse; font-family:"Courier New", Courier, monospace; font-size:10" width="100%">
+<table  width="100%">
   <col>
   <colgroup span="5"></colgroup>
   <colgroup span="4"></colgroup>
@@ -68,32 +68,32 @@ we present results on action localization using only the appearance (A) informat
     <th scope="col">0.2</th> <th scope="col">0.5</th> <th scope="col">0.75</th> <th scope="col">0.5:0.95</th>
   </tr>
   <tr>
-    <td scope="row">Saha et al. <font size="8">[3]</font></td>
+    <td scope="row">Saha et al. <sup>3</sup></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">72.6</td> <td align="center" valign="center">71.5</td> <td align="center" valign="center">43.3</td> <td align="center" valign="center">40.0</td> <td align="center" valign="center">4</td>
   </tr>
   <tr>
-    <td scope="row">Peng et al. [4]</td>
+    <td scope="row">Peng et al. <sup>4</sup></td>
     <td align="center" valign="center">65.7</td> <td align="center" valign="center">72.9</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td>
     <td align="center" valign="center">58.5</td> <td align="center" valign="center">74.3</td> <td align="center" valign="center">73.1</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td>
   </tr>
   <tr>  
-    <td scope="row">Zhang et al. [5]</td>
+    <td scope="row">Zhang et al. <sup>5</sup></td>
     <td align="center" valign="center">67.7</td> <td align="center" valign="center">74.8</td> <td align="center" valign="center">46.6</td> <td align="center" valign="center">16.7</td> <td align="center" valign="center">21.9</td>
     <td align="center" valign="center">37.4</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">37.8</td>
   </tr>
   <tr>
-    <td scope="row">ROAD+AF [6]</td>
+    <td scope="row">ROAD+AF <sup>6</sup></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">73.5</td> <td align="center" valign="center">46.3</td> <td align="center" valign="center">15.0</td> <td align="center" valign="center">20.4</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">70.8</td> <td align="center" valign="center">70.1</td> <td align="center" valign="center">43.7</td> <td align="center" valign="center">39.7</td> <td align="center" valign="center">7</td>
   </tr>
   <tr>
-    <td scope="row">ROAD+RTF [6]</td>
+    <td scope="row">ROAD+RTF <sup>6</sup></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">70.2</td> <td align="center" valign="center">43.0</td> <td align="center" valign="center">14.5</td> <td align="center" valign="center">19.2</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">66.0</td> <td align="center" valign="center">63.9</td> <td align="center" valign="center">35.1</td> <td align="center" valign="center">34.4</td> <td align="center" valign="center">28</td>
   </tr>
   <tr>
-    <td scope="row">ROAD (A) [6]</td>
+    <td scope="row">ROAD (A) <sup>6</sup></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">69.8</td> <td align="center" valign="center">40.9</td> <td align="center" valign="center">15.5</td> <td align="center" valign="center">18.7</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">60.8</td> <td align="center" valign="center">59.7</td> <td align="center" valign="center">37.5</td> <td align="center" valign="center">33.9</td> <td align="center" valign="center">40</td>
   </tr> 
