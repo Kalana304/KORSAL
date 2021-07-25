@@ -59,7 +59,11 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
   </tr>
   <tr>
     <th scope="row">Saha et al. [3]</th>
-    <td>50,000</td> <td>30,000</td> <td>100,000</td> <td>80,000</td> <td>80,000</td>
+    <td>50,000</td>
+    <td>30,000</td>
+    <td>100,000</td>
+    <td>80,000</td>
+    <td>80,000</td>
   </tr>
   <tr>
     <th scope="row">Saha et al. [3]</th>
@@ -67,15 +71,27 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
   </tr>
   <tr>
     <th scope="row">Saha et al. [3]</th>
-    <td>50,000</td> <td>30,000</td> <td>100,000</td> <td>80,000</td> <td>80,000</td>
+    <td>50,000</td>
+    <td>30,000</td>
+    <td>100,000</td>
+    <td>80,000</td>
+    <td>80,000</td>
   </tr>
   <tr>
     <th scope="row">Saha et al. [3]</th>
-    <td>50,000</td> <td>30,000</td> <td>100,000</td> <td>80,000</td> <td>80,000</td>
+    <td>50,000</td>
+    <td>30,000</td>
+    <td>100,000</td>
+    <td>80,000</td>
+    <td>80,000</td>
   </tr>
   <tr>
     <th scope="row">Saha et al. [3]</th>
-    <td>50,000</td> <td>30,000</td> <td>100,000</td> <td>80,000</td> <td>80,000</td>
+    <td>50,000</td>
+    <td>30,000</td>
+    <td>100,000</td>
+    <td>80,000</td>
+    <td>80,000</td>
   </tr>
 </table>
 
