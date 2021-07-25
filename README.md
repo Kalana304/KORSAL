@@ -35,9 +35,9 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 <table>
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
+            <th>Method</th>
+            <th>f-mAP @ 0.5</th>
+            <th colspan=4>v-mAP</th>
         </tr>
     </thead>
     <tbody>
