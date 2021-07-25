@@ -40,7 +40,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
   
   <tr>
     <td rowspan="2">Method</td>
-    <th rowspan="2">f-mAP @0.5</th>
+    <td rowspan="2">f-mAP @0.5</td>
     <th colspan="4" scope="colgroup">v-mAP</th>
   </tr>
   <tr>
@@ -55,25 +55,35 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
     <td>30,000</td>
     <td>100,000</td>
     <td>80,000</td>
-  </tr>
-  <tr>
-    <th scope="row">Board Games</th>
-    <td>10,000</td>
-    <td>5,000</td>
-    <td>12,000</td>
-    <td>9,000</td>
+    <td>80,000</td>
   </tr>
 </table>
 
-###### ST action localization results (v-mAP) on UCF101-24
-|  Method            |     f-mAP    |                    v-mAP                     ||
-|                    |    @ 0.5     |   0.2    |    0.5   |   0.75   |   0.5:0.95   |  
-| :----------------: |:------------:| :-------:| :-------:| :-------:| :----------: |
-
-
 ###### ST action localization results (v-mAP) on J-HMDB21
-|  Method            |              |          |            |                |                |
-| :----------------: |:------------:| :-------:| :--------: | :------------: | :------------: |
+<table>
+  <col>
+  <colgroup span="4"></colgroup>
+  
+  <tr>
+    <td rowspan="2">Method</td>
+    <td rowspan="2">f-mAP @0.5</td>
+    <th colspan="4" scope="colgroup">v-mAP</th>
+  </tr>
+  <tr>
+    <th scope="col">0.2</th>
+    <th scope="col">0.5</th>
+    <th scope="col">0.75</th>
+    <th scope="col">0.5:0.95</th>
+  </tr>
+  <tr>
+    <th scope="row">Teddy Bears</th>
+    <td>50,000</td>
+    <td>30,000</td>
+    <td>100,000</td>
+    <td>80,000</td>
+    <td>80,000</td>
+  </tr>
+</table>
 
 ###### Inference Run Time Analysis
 |  Framework Module  |              |          |            |                |                |                | 
