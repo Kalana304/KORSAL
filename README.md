@@ -33,9 +33,6 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 ## Performance
 <table>
-    <col>
-    <colgroup span="2"></colgroup>
-    <colgroup span="2"></colgroup>
     <thead>
       <tr>
         <td rowspan="2">Methods</td>
