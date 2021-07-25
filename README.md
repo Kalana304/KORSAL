@@ -33,12 +33,22 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 ## Performance
 <table>
+    <col>
+    <colgroup span="2"></colgroup>
+    <colgroup span="2"></colgroup>
     <thead>
-        <tr>
-            <th rowspan=2>Method</th>
-            <th rowspan=2>f-mAP @ 0.5</th>
-            <th colspan=4>v-mAP</th>
-        </tr>
+      <tr>
+        <td rowspan="2">Methods</td>
+        <td rowspan="2">f-mAP @ 0.5</td>
+        <th colspan="4" scope="colgroup">v-mAP</th>
+     </tr>
+     
+      <tr>
+        <th scope="col">0.2</th>
+        <th scope="col">0.5</th>
+        <th scope="col">0.75</th>
+        <th scope="col">0.5:0.95</th>
+      </tr>
     </thead>
     <tbody>
         <tr>
