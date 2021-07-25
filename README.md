@@ -68,7 +68,7 @@ we present results on action localization using only the appearance (A) informat
     <th scope="col">0.2</th> <th scope="col">0.5</th> <th scope="col">0.75</th> <th scope="col">0.5:0.95</th>
   </tr>
   <tr>
-    <td scope="row">Saha et al. [3]</td>
+    <td scope="row">Saha et al. <font size="1">[3]</font></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">72.6</td> <td align="center" valign="center">71.5</td> <td align="center" valign="center">43.3</td> <td align="center" valign="center">40.0</td> <td align="center" valign="center">4</td>
   </tr>
