@@ -14,7 +14,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 ## Table of Content
   1. [Installation](#installation)
   2. [Datasets](#datasets)
-  3. [Setting up CenterNet](#centernet)
+  3. [Training CenterNet](#centernet)
   3. [Saving Detections](#detections)
   4. [Online Tube Generation](#tubegeneration)
   5. [Performance](#performance)
@@ -25,7 +25,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 ## Datasets
 
-## Setting up CenterNet
+## Training CenterNet
 
 ## Saving Detections
 
