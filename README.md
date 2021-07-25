@@ -16,3 +16,31 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
   6. [Citation](#citation)
   7. [Reference](#reference)
 
+## Installation
+
+## Datasets
+
+## Setting up CenterNet
+
+## Saving Detections
+
+## Online Tube Generation
+
+## Performance
+
+###### ST action localization results (v-mAP) on UCF101-24
+|  Method            |              |          |            |                |                |
+| :----------------: |:------------:| :-------:| :--------: | :------------: | :------------: |
+
+
+###### ST action localization results (v-mAP) on J-HMDB21
+|  Method            |              |          |            |                |                |
+| :----------------: |:------------:| :-------:| :--------: | :------------: | :------------: |
+
+###### Inference Run Time Analysis
+|  Framework Module  |              |          |            |                |                |                | 
+| :----------------: |:------------:| :-------:| :--------: | :------------: | :------------: | :------------: |
+
+## Citation
+
+## Reference
