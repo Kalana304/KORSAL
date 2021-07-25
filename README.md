@@ -30,7 +30,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 
 <p align="center">
   <img src="figures/sample directory tree.png">
-  <em>Sample directory tree for JHMDB21</em>
+  <em>Sample directory tree for J-HMDB21</em>
 </p>
 
 ## Training CenterNet
