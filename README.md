@@ -62,7 +62,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
   </tr>
   <tr>
     <td scope="row">Saha et al. [3]</td>
-    <td style="text-align: center; vertical-align: middle;">-</td> <td style="text-align: center; vertical-align: middle;">66.6</td> <td style="text-align: center; vertical-align: middle;">36.4</td> <td style="text-align: center; vertical-align: middle;">7.9</td> <td style="text-align: center; vertical-align: middle;">14.4</td>
+    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
   </tr>
   <tr>
     <td scope="row">Peng et al. [4]</td>
