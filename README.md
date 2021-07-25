@@ -48,6 +48,7 @@ we present results on action localization using only the appearance (A) informat
 </p >
 
 ###### ST action localization results (v-mAP) on UCF101-24 and J-HMDB21 datasets
+<font size="2" face="Courier New" >
 <table style="border: 5px solid #990000; border-collapse: collapse" width="100%">
   <col>
   <colgroup span="5"></colgroup>
@@ -108,6 +109,7 @@ we present results on action localization using only the appearance (A) informat
     <td align="center" valign="center">50.5</td> <td align="center" valign="center">58.9</td> <td align="center" valign="center">58.4</td> <td align="center" valign="center"><strong>49.5</strong></td> <td align="center" valign="center">40.6</td> <td align="center" valign="center"><strong>41.8</strong></td>
   </tr>
 </table>
+</font>
 
 <p align='justify'>
 We analyze the inference times for different variations of our pipeline based on the different modules in the framework and the overall inference time in the below Table.
