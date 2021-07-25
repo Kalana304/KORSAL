@@ -44,6 +44,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 ###### ST action localization results (v-mAP) on UCF101-24
 <table>
   <col>
+  <colgroup span="5"></colgroup>
   <colgroup span="4"></colgroup>
   <tr>
     <td rowspan="3">Method</td>
