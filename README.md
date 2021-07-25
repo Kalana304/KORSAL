@@ -33,10 +33,11 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 ## Performance
 
+###### ST action localization results (v-mAP) on UCF101-24
 <table>
   <col>
   <colgroup span="4"></colgroup>
-  <caption> ST action localization results (v-mAP) on UCF101-24 </caption>
+  
   <tr>
     <td rowspan="2">Method</td>
     <th rowspan="2">f-mAP @0.5</th>
