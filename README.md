@@ -50,6 +50,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
     <th rowspan="3">Method</th>
     <th colspan="5" scope="colgroup">UCF101-24</th>
     <th colspan="5" scope="colgroup">J-HMDB21</th>
+    <th rowspan="3">FPS</th>
   <tr>
     <th rowspan="2">f-mAP <br/> @0.5</th>
     <th colspan="4" scope="colgroup">v-mAP</th>
@@ -63,42 +64,42 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
   <tr>
     <td scope="row">Saha et al. [3]</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
-    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
+    <td align="center" valign="center">-</td> <td align="center" valign="center">72.6</td> <td align="center" valign="center">71.5</td> <td align="center" valign="center">43.3</td> <td align="center" valign="center">40.0</td> <td align="center" valign="center">4</td>
   </tr>
   <tr>
     <td scope="row">Peng et al. [4]</td>
     <td align="center" valign="center">65.7</td> <td align="center" valign="center">72.9</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td>
-    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
+    <td align="center" valign="center">58.5</td> <td align="center" valign="center">74.3</td> <td align="center" valign="center">73.1</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td>
   </tr>
   <tr>  
     <td scope="row">Zhang et al. [5]</td>
     <td align="center" valign="center">67.7</td> <td align="center" valign="center">74.8</td> <td align="center" valign="center">46.6</td> <td align="center" valign="center">16.7</td> <td align="center" valign="center">21.9</td>
-    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
+    <td align="center" valign="center">37.4</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">37.8</td>
   </tr>
   <tr>
     <td scope="row">ROAD+AF [6]</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">73.5</td> <td align="center" valign="center">46.3</td> <td align="center" valign="center">15.0</td> <td align="center" valign="center">20.4</td>
-    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
+    <td align="center" valign="center">-</td> <td align="center" valign="center">70.8</td> <td align="center" valign="center">70.1</td> <td align="center" valign="center">43.7</td> <td align="center" valign="center">39.7</td> <td align="center" valign="center">7</td>
   </tr>
   <tr>
     <td scope="row">ROAD+RTF [6]</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">70.2</td> <td align="center" valign="center">43.0</td> <td align="center" valign="center">14.5</td> <td align="center" valign="center">19.2</td>
-    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
+    <td align="center" valign="center">-</td> <td align="center" valign="center">66.0</td> <td align="center" valign="center">63.9</td> <td align="center" valign="center">35.1</td> <td align="center" valign="center">34.4</td> <td align="center" valign="center">28</td>
   </tr>
   <tr>
     <td scope="row">ROAD (A) [6]</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">69.8</td> <td align="center" valign="center">40.9</td> <td align="center" valign="center">15.5</td> <td align="center" valign="center">18.7</td>
-    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
-  </tr>
+    <td align="center" valign="center">-</td> <td align="center" valign="center">60.8</td> <td align="center" valign="center">59.7</td> <td align="center" valign="center">37.5</td> <td align="center" valign="center">33.9</td> <td align="center" valign="center">40</td>
+  </tr> 
   <tr>
-    <td scope="row">Ours (A) [6]</td>
+    <td scope="row">Ours (A) </td>
     <td align="center" valign="center">71.8</td> <td align="center" valign="center">70.2</td> <td align="center" valign="center">44.3</td> <td align="center" valign="center">16.6</td> <td align="center" valign="center">20.6</td>
-    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
+    <td align="center" valign="center">51.2</td> <td align="center" valign="center">59.3</td> <td align="center" valign="center">59.2</td> <td align="center" valign="center">48.2</td> <td align="center" valign="center">41.2</td> <td align="center" valign="center">52.9</td>
   </tr>
   <tr>
-    <td scope="row">Ours [6]</td>
+    <td scope="row">Ours </td>
     <td align="center" valign="center">74.7</td> <td align="center" valign="center">72.7</td> <td align="center" valign="center">43.1</td> <td align="center" valign="center">16.8</td> <td align="center" valign="center">20.2</td>
-    <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
+    <td align="center" valign="center">50.5</td> <td align="center" valign="center">58.9</td> <td align="center" valign="center">58.4</td> <td align="center" valign="center">49.5</td> <td align="center" valign="center">40.6</td> <td align="center" valign="center">41.8</td>
   </tr>
 </table>
 
