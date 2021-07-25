@@ -34,16 +34,16 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 ## Performance
 <table>
   <caption>
-    Poster availability
+    ST action localization results (v-mAP) on UCF101-24
   </caption>
   <col>
   <col>
-  <colgroup span="3"></colgroup>
+  <colgroup span="4"></colgroup>
   <thead>
     <tr>
-      <th scope="col">Poster name</th>
-      <th scope="col">Color</th>
-      <th colspan="3" scope="colgroup">Sizes available</th>
+      <th scope="col">Method</th>
+      <th scope="col">f-mAP @ 0.5</th>
+      <th colspan="4" scope="colgroup">v-mAP</th>
     </tr>
   </thead>
   <tbody>
