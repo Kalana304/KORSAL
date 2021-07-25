@@ -25,7 +25,7 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 ## Datasets
 <p align='justify'>
-We evaluate our framework on two datasets, <a href=https://www.crcv.ucf.edu/data/UCF101.php>UCF101-24</a> and <a href=http://jhmdb.is.tue.mpg.de/>J-HMDB21</a>. UCF101-24 is a subset of UCF101 [1] with ST labels, having 3207 untrimmed videos with 24 action classes, that may contain multiple instances for the same action class. J-HMDB-21 is a subset of the HMDB-51 dataset [2] having 928 temporally trimmed videos with 21 actions, each containing a single action instance. 
+We evaluate our framework on two datasets, <a href=https://www.crcv.ucf.edu/data/UCF101.php>UCF101-24</a> and <a href=http://jhmdb.is.tue.mpg.de/>J-HMDB21</a>. UCF101-24 is a subset of UCF101<sup>[1]</sup> with ST labels, having 3207 untrimmed videos with 24 action classes, that may contain multiple instances for the same action class. J-HMDB-21 is a subset of the HMDB-51 dataset<sup>[2]</sup> having 928 temporally trimmed videos with 21 actions, each containing a single action instance. 
 
 Download the datasets and extract the frames. Place the extracted frames in <emp>rgb-images</emp> in the respective dataset directory in [Datasets](https://github.com/Kalana304/KORSAL/tree/main/Datasets). The data directory should look as follows:
 </p>
@@ -68,32 +68,32 @@ we present results on action localization using only the appearance (A) informat
     <th scope="col">0.2</th> <th scope="col">0.5</th> <th scope="col">0.75</th> <th scope="col">0.5:0.95</th>
   </tr>
   <tr>
-    <td scope="row">Saha et al. <sup>3</sup></td>
+    <td scope="row">Saha et al. <sup>[3]</sup></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">66.6</td> <td align="center" valign="center">36.4</td> <td align="center" valign="center">7.9</td> <td align="center" valign="center">14.4</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">72.6</td> <td align="center" valign="center">71.5</td> <td align="center" valign="center">43.3</td> <td align="center" valign="center">40.0</td> <td align="center" valign="center">4</td>
   </tr>
   <tr>
-    <td scope="row">Peng et al. <sup>4</sup></td>
+    <td scope="row">Peng et al. <sup>[4]</sup></td>
     <td align="center" valign="center">65.7</td> <td align="center" valign="center">72.9</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td>
     <td align="center" valign="center">58.5</td> <td align="center" valign="center">74.3</td> <td align="center" valign="center">73.1</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td>
   </tr>
   <tr>  
-    <td scope="row">Zhang et al. <sup>5</sup></td>
+    <td scope="row">Zhang et al. <sup>[5]</sup></td>
     <td align="center" valign="center">67.7</td> <td align="center" valign="center">74.8</td> <td align="center" valign="center">46.6</td> <td align="center" valign="center">16.7</td> <td align="center" valign="center">21.9</td>
     <td align="center" valign="center">37.4</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">-</td> <td align="center" valign="center">37.8</td>
   </tr>
   <tr>
-    <td scope="row">ROAD+AF <sup>6</sup></td>
+    <td scope="row">ROAD+AF <sup>[6]</sup></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">73.5</td> <td align="center" valign="center">46.3</td> <td align="center" valign="center">15.0</td> <td align="center" valign="center">20.4</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">70.8</td> <td align="center" valign="center">70.1</td> <td align="center" valign="center">43.7</td> <td align="center" valign="center">39.7</td> <td align="center" valign="center">7</td>
   </tr>
   <tr>
-    <td scope="row">ROAD+RTF <sup>6</sup></td>
+    <td scope="row">ROAD+RTF <sup>[6]</sup></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">70.2</td> <td align="center" valign="center">43.0</td> <td align="center" valign="center">14.5</td> <td align="center" valign="center">19.2</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">66.0</td> <td align="center" valign="center">63.9</td> <td align="center" valign="center">35.1</td> <td align="center" valign="center">34.4</td> <td align="center" valign="center">28</td>
   </tr>
   <tr>
-    <td scope="row">ROAD (A) <sup>6</sup></td>
+    <td scope="row">ROAD (A) <sup>[6]</sup></td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">69.8</td> <td align="center" valign="center">40.9</td> <td align="center" valign="center">15.5</td> <td align="center" valign="center">18.7</td>
     <td align="center" valign="center">-</td> <td align="center" valign="center">60.8</td> <td align="center" valign="center">59.7</td> <td align="center" valign="center">37.5</td> <td align="center" valign="center">33.9</td> <td align="center" valign="center">40</td>
   </tr> 
