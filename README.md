@@ -48,8 +48,8 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
   <colgroup span="4"></colgroup>
   <tr>
     <td rowspan="3">Method</td>
-    <td rowspan="5">UCF101-24</td>
-    <td rowspan="5">J-HMDB21</td>
+    <th colspan="5" scope="colgroup">UCF101-24</th>
+    <th colspan="5" scope="colgroup">J-HMDB21</th>
   <tr>
     <td rowspan="2">f-mAP @0.5</td>
     <th colspan="4" scope="colgroup">v-mAP</th>
