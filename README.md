@@ -34,8 +34,9 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 ## Performance
 
 ###### ST action localization results (v-mAP) on UCF101-24
-|  Method            |     f-mAP    |                    v-mAP                            ||||
-| :----------------: |:------------:| :-------:| :--------: | :------------: | :------------: |
+|  Method            |     f-mAP    |                    v-mAP                   ||||
+|                    |    @ 0.5     |   0.2    |    0.5   |   0.75   |   0.5:0.95   |  
+| :----------------: |:------------:| :-------:| :-------:| :-------:| :----------: |
 
 
 ###### ST action localization results (v-mAP) on J-HMDB21
