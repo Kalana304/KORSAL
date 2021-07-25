@@ -48,7 +48,7 @@ we present results on action localization using only the appearance (A) informat
 </p >
 
 ###### ST action localization results (v-mAP) on UCF101-24 and J-HMDB21 datasets
-<table style="border: 5px solid #990000; border-collapse: collapse; font-family:"Courier New", Courier, monospace; font-size:80%" width="100%">
+<table style="border: 5px solid #990000; border-collapse: collapse; font-family:"Courier New", Courier, monospace; font-size:60%" width="100%">
   <col>
   <colgroup span="5"></colgroup>
   <colgroup span="4"></colgroup>
