@@ -32,19 +32,21 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 ## Online Tube Generation
 
 ## Performance
+
 <table>
   <col>
   <colgroup span="4"></colgroup>
+  <caption> ST action localization results (v-mAP) on UCF101-24 </caption>
   <tr>
     <td rowspan="2">Method</td>
     <th rowspan="2">f-mAP @0.5</th>
     <th colspan="4" scope="colgroup">v-mAP</th>
   </tr>
   <tr>
-    <th scope="col">Produced</th>
-    <th scope="col">Sold</th>
-    <th scope="col">Produced</th>
-    <th scope="col">Sold</th>
+    <th scope="col">0.2</th>
+    <th scope="col">0.5</th>
+    <th scope="col">0.75</th>
+    <th scope="col">0.5:0.95</th>
   </tr>
   <tr>
     <th scope="row">Teddy Bears</th>
