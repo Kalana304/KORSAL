@@ -33,55 +33,33 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 ## Performance
 <table>
-  <caption>
-    ST action localization results (v-mAP) on UCF101-24
-  </caption>
-  <col>
   <col>
   <colgroup span="4"></colgroup>
-  <thead>
-    <tr>
-      <th scope="col">Method</th>
-      <th scope="col">f-mAP @ 0.5</th>
-      <th colspan="4" scope="colgroup">v-mAP</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="3" scope="rowgroup">Zodiac</th>
-      <th scope="row">Full color</th>
-      <td>A2</td>
-      <td>A3</td>
-      <td>A4</td>
-    </tr>
-    <tr>
-      <th scope="row">Black and white</th>
-      <td>A1</td>
-      <td>A2</td>
-      <td>A3</td>
-    </tr>
-    <tr>
-      <th scope="row">Sepia</th>
-      <td>A3</td>
-      <td>A4</td>
-      <td>A5</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <th rowspan="2" scope="rowgroup">Angels</th>
-      <th scope="row">Black and white</th>
-      <td>A1</td>
-      <td>A3</td>
-      <td>A4</td>
-    </tr>
-    <tr>
-      <th scope="row">Sepia</th>
-      <td>A2</td>
-      <td>A3</td>
-      <td>A5</td>
-    </tr>
-  </tbody>
+  <tr>
+    <td rowspan="2">Method</td>
+    <th rowspan="2">f-mAP @0.5</th>
+    <th colspan="4" scope="colgroup">v-mAP</th>
+  </tr>
+  <tr>
+    <th scope="col">Produced</th>
+    <th scope="col">Sold</th>
+    <th scope="col">Produced</th>
+    <th scope="col">Sold</th>
+  </tr>
+  <tr>
+    <th scope="row">Teddy Bears</th>
+    <td>50,000</td>
+    <td>30,000</td>
+    <td>100,000</td>
+    <td>80,000</td>
+  </tr>
+  <tr>
+    <th scope="row">Board Games</th>
+    <td>10,000</td>
+    <td>5,000</td>
+    <td>12,000</td>
+    <td>9,000</td>
+  </tr>
 </table>
 
 ###### ST action localization results (v-mAP) on UCF101-24
