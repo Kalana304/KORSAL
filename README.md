@@ -92,12 +92,12 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
     <td align="center" valign="center">-</td> <td align="center" valign="center">60.8</td> <td align="center" valign="center">59.7</td> <td align="center" valign="center">37.5</td> <td align="center" valign="center">33.9</td> <td align="center" valign="center">40</td>
   </tr> 
   <tr>
-    <td scope="row">Ours (A) </td>
+    <td scope="row"> <strong>Ours (A)</strong> </td>
     <td align="center" valign="center">71.8</td> <td align="center" valign="center">70.2</td> <td align="center" valign="center">44.3</td> <td align="center" valign="center">16.6</td> <td align="center" valign="center">20.6</td>
     <td align="center" valign="center">51.2</td> <td align="center" valign="center">59.3</td> <td align="center" valign="center">59.2</td> <td align="center" valign="center">48.2</td> <td align="center" valign="center">41.2</td> <td align="center" valign="center">52.9</td>
   </tr>
   <tr>
-    <td scope="row">Ours </td>
+    <td scope="row"><strong>Ours</strong> </td>
     <td align="center" valign="center">74.7</td> <td align="center" valign="center">72.7</td> <td align="center" valign="center">43.1</td> <td align="center" valign="center">16.8</td> <td align="center" valign="center">20.2</td>
     <td align="center" valign="center">50.5</td> <td align="center" valign="center">58.9</td> <td align="center" valign="center">58.4</td> <td align="center" valign="center">49.5</td> <td align="center" valign="center">40.6</td> <td align="center" valign="center">41.8</td>
   </tr>
