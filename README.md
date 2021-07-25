@@ -35,17 +35,12 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 <table>
     <thead>
         <tr>
-            <th>Method</th>
-            <th>f-mAP @ 0.5</th>
+            <th rowspan=2>Method</th>
+            <th rowspan=2>f-mAP @ 0.5</th>
             <th colspan=4>v-mAP</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
-        </tr>
         <tr>
             <td>L3 Name B</td>
         </tr>
