@@ -39,15 +39,32 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 ### Setting up the CenterNet
 
 ### Training from the scratch
-
-### Resuming from the last checkpoint
-To resume the training from the last checkpoint saved, the following command can be run.
+To train from the scratch with either ucf101-24 or j-hmdb21 datasets, the following command can be run. 
 
 ```
-python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs> --variant <default 1> --resume 
+python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs (default: 60)> --variant <variation (default: 1)> 
+```
+
+### Resuming from saved checkpoint
+To resume the training from the last checkpoint saved, run the following command.
+
+```
+python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs (default: 60)> --variant <variation (default: 1)> --resume 
+```
+
+Further, to resume the training from a specific chekpoint saved, run the following command.
+
+```
+python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs (default: 60)> --variant <variation (default: 1)> --resume --load_model <path to the saved model>
 ```
 
 ## Transfer Learning using the best checkpoint
+To tranfer learn from a pre-trained checkpoint, run the following command.
+
+```
+python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs (default: 60)> --variant <variation (default: 1)> --load_model <path to the saved model>
+```
+The pre-trained model checkpoints trained on jhmdb21 and ucf101-24 datasets can be downloaded from <a href=https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing>checkpoints</a>. Place the chekpoints at ```<dataset>\dla34\rgb\<save dir name>``` to be compatible with the directory path provided in the Centernet sripts. 
 
 ## Saving Detections
 
