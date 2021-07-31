@@ -43,7 +43,9 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 ### Resuming from the last checkpoint
 To resume the training from the last checkpoint saved, the following command can be run.
 
-> python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <nuo. of epochs (default 60)> --variant <variation (default 1)> --resume 
+```
+python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs> --variant <default 1> --resume 
+```
 
 ## Transfer Learning using the best checkpoint
 
