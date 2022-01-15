@@ -72,7 +72,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 
 ### Setting up the CenterNet
 
-When seting up CenterNet, we followed the instructions mentioned in their [official repository](https://github.com/xingyizhou/CenterNet. The modified scripts of CenterNet for Action Detection are provided in this [repository](https://github.com/Kalana304/KORSAL/tree/main/CenterNet). 
+When seting up CenterNet, we followed the instructions mentioned in their [official repository](https://github.com/xingyizhou/CenterNet). The modified scripts of CenterNet for Action Detection are provided in this [repository](https://github.com/Kalana304/KORSAL/tree/main/CenterNet). 
 
 To install DCNv2, follow the below instructions:
 
