@@ -66,7 +66,7 @@ python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus
 ```
 
 <p align='justify'>
-The pre-trained model checkpoints trained on jhmdb21 and ucf101-24 datasets can be downloaded from <a href=https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing>checkpoints</a>. Place the chekpoints at &#60;dataset&#62;\dla34\rgb\ &#60;save dir name&#62; to be compatible with the directory path definitions in the Centernet sripts. </p>
+The pre-trained model checkpoints trained on jhmdb21 and ucf101-24 datasets can be downloaded from <a href=https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing>checkpoints</a>. Place the chekpoints at `exp\dataset-name\dla34\rgb\save-name\` to be compatible with the directory path definitions in the Centernet sripts. </p>
 
 ## Saving Detections
 
