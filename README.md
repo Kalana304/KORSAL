@@ -138,7 +138,7 @@ To tranfer learn from a pre-trained checkpoint, run the following command.
 python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs (default: 60)> --variant <variation (default: 1)> --load_model /path/to/checkpoint
 ```
 
-The pre-trained model checkpoints trained on J-HMDB21 and UCF101-24 datasets can be downloaded from [here](https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing). Place the chekpoints at `./CenterNet/exp/$DATASET/dla34/rgb/$CHKPT_Name` to be compatible with the directory path definitions in the Centernet scripts. 
+The pre-trained model checkpoints trained on J-HMDB21 and UCF101-24 datasets can be downloaded from [here](https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing). Place the chekpoints at `./CenterNet/exp/$DATASET_NAME/dla34/rgb/$CHKPT_NAME` to be compatible with the directory path definitions in the Centernet scripts. 
 
 ## Saving Detections
 For evaluation, the spatial detections needs to be saved as <I>.mat </I> files. First, navigate to ./Save Detections/ and execute the following command:
