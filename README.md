@@ -19,9 +19,9 @@ Real-time and online action localization in a video is a critical yet highly cha
 ## Table of Content
   1. [Installation](#installation)
   2. [Datasets](#datasets)
-  3. [Training CenterNet](#centernet)
-  3. [Saving Detections](#detections)
-  4. [Online Tube Generation](#tubegeneration)
+  3. [Training CenterNet](#training-centernet)
+  3. [Saving Detections](#saving-detections)
+  4. [Online Tube Generation](#online-tube-generation)
   5. [Performance](#performance)
   6. [Citation](#citation)
   7. [Reference](#reference)
