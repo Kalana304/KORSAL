@@ -148,8 +148,33 @@ python CUDA_VISIBLE_DEVICES=0 python SaveDetections.py --dataset <dataset> --ngp
 ## Online Tube Generation
 
 After the spatial detections are saved for each video, the action tubes and paths are generated using the proposed online tube generation algorithm and its variation that are based on the [original implementation](https://github.com/Kalana304/realtime-action-detection) which is also provided for comparison. The codes can be found in `./online-tubes/`.
- - To run the code, you will need to install MATLAB. You can install a [free trial](https://www.mathworks.com/products/matlab.html) for testing purposes. 
+ - To run the code, you will need to install MATLAB. You can install a [free trial](https://www.mathworks.com/products/matlab.html) for testing purposes. Make sure you add the MATLAB installation path to the conda environment if you are executing scripts using command line.
  - If you only have command line priviledges, you can install [Octave](https://wiki.octave.org/Octave_for_Debian_systems) and execute the tube generation.
+
+### Executing with MATLAB
+
+1. Navigate to the respective directory: 
+```
+cd ./online-tubes/EXP_without_BBOX
+```
+2. Change the paths based on where the data (saved detections) is located and results need saving in `I01onlineTubes.m` and `utils/initDatasetOpts.m`.
+3. Execute `I01onlineTubes.m`. When executing using command line:
+```
+matlab -batch "I01onlineTubes.m"
+```
+
+### Executing with Octave
+
+1. Navigate to the respective directory: 
+```
+cd ./online-tubes/EXP_without_BBOX
+```
+2. Change the paths based on where the data (saved detections) is located and results need saving in `I01onlineTubes.m` and `utils/initDatasetOpts.m`.
+3. Execute `I01onlineTubes.m`. When executing using command line:
+```
+octave I01onlineTubes.m
+```
+*There can be errors when running the current scripts in Octave. This is due to `-v7.3` argument used in `save()` function in MATLAB scripts. You can simply remove the `-v7.3` argument in `save()` functions and run without errors.* 
 
 
 
