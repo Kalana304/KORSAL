@@ -147,6 +147,10 @@ python CUDA_VISIBLE_DEVICES=0 python SaveDetections.py --dataset <dataset> --ngp
 
 ## Online Tube Generation
 
+After the spatial detections are saved for each video, the action tubes and paths are generated using the proposed online tube generation algorithm and its variation that are based on the [original implementation](https://github.com/Kalana304/realtime-action-detection) which is also provided for comparison. The codes can be found in `./online-tubes/`.
+
+
+
 
 ## Performance
 <p align='justify'>
