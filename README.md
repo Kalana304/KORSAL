@@ -176,12 +176,6 @@ octave I01onlineTubes.m
 ```
 *There can be errors when running the current scripts in Octave. This is due to `-v7.3` argument used in `save()` function in MATLAB scripts. You can simply remove the `-v7.3` argument in `save()` functions and run without errors.* 
 
-
-
-
-
-
-
 ## Performance
 <p align='justify'>
 We describe our experimental results and compare them with state-of-the-art offline and online methods that use either RGB or both RGB and OF inputs. Further, for comparison
@@ -265,6 +259,13 @@ Evidently, any preprocessing will have an impact on the inference time. Thus, th
 
 
 ## Citation
+
+> @article{abeywardena2021korsal,
+  title={KORSAL: Key-point Detection based Online Real-Time Spatio-Temporal Action Localization},
+  author={Abeywardena, Kalana and Sumanthiran, Shechem and Jayasundara, Sakuna and Karunasena, Sachira and Rodrigo, Ranga and Jayasekara, Peshala},
+  journal={arXiv preprint arXiv:2111.03319},
+  year={2021}
+}
 
 ## Reference
 [1] Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. Ucf101: A dataset of 101 human actions classes from videos in the wild. arXiv preprint arXiv:1212.0402, 2012. \\
