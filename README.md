@@ -39,9 +39,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 
 ### Setting up the CenterNet
 
-To setup CenterNet, use the instructions mentioned in their official [repository](https://github.com/xingyizhou/CenterNet) specifically during the installation of DCNv2.
-
-If you face an error regarding DCNv2, follow the instructions below.
+To setup CenterNet, use the instructions mentioned in their official [repository](https://github.com/xingyizhou/CenterNet) specifically during the installation of DCNv2. If you face an error regarding DCNv2, follow the instructions below.
 
 1. **Build NMS**
 
@@ -51,11 +49,7 @@ cd CenterNet\src\lib\external
 python setup.py build_ext --inplace
 ```
 
-Comment out the parameter in setup.py when building `nms` extension to solve invalid numeric argument `/Wno-cpp` (the provided script by us has made the changes already):
-
-`
-# extra_compile_args=["-Wno-cpp", "-Wno-unused-function"]
-`
+Comment out the parameter in setup.py when building `nms` extension to solve invalid numeric argument `/Wno-cpp`: `#extra_compile_args=["-Wno-cpp", "-Wno-unused-function"]` (the provided script by us has made the changes already).
 
 2. **Clone and build original DCN2**
 
