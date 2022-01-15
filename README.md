@@ -259,13 +259,14 @@ Evidently, any preprocessing will have an impact on the inference time. Thus, th
 
 
 ## Citation
-
-> @article{abeywardena2021korsal,
+```
+@article{abeywardena2021korsal,
   title={KORSAL: Key-point Detection based Online Real-Time Spatio-Temporal Action Localization},
   author={Abeywardena, Kalana and Sumanthiran, Shechem and Jayasundara, Sakuna and Karunasena, Sachira and Rodrigo, Ranga and Jayasekara, Peshala},
   journal={arXiv preprint arXiv:2111.03319},
   year={2021}
 }
+```
 
 ## Reference
 [1] Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. Ucf101: A dataset of 101 human actions classes from videos in the wild. arXiv preprint arXiv:1212.0402, 2012. \\
