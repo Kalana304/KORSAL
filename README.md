@@ -104,7 +104,7 @@ python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus
 ```
 
 <p align='justify'>
-The pre-trained model checkpoints trained on J-HMDB21 and UCF101-24 datasets can be downloaded from <a href=https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing>checkpoints</a>. </p> Place the chekpoints at `exp\dataset-name\dla34\rgb\save-name\` to be compatible with the directory path definitions in the Centernet scripts. 
+The pre-trained model checkpoints trained on J-HMDB21 and UCF101-24 datasets can be downloaded from <a href=https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing>checkpoints</a>. Place the chekpoints at <mark>exp\dataset-name\dla34\rgb\save-name\</mark> to be compatible with the directory path definitions in the Centernet scripts. </p>
 
 ## Saving Detections
 For evaluation, the spatial detections needs to be saved as <I>.mat </I> files. First, navigate to ./Save Detections/ and execute the following command:
