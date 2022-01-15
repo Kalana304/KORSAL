@@ -39,7 +39,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 ### Setting up the CenterNet
 
 ### Training from the scratch
-To train from the scratch with either ucf101-24 or j-hmdb21 datasets, the following command can be run. 
+To train from the scratch with either UCF101-24 or J-HMDB21 datasets, the following command can be run. 
 
 ```
 python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs (default: 60)> --variant <variation (default: 1)> 
@@ -66,9 +66,14 @@ python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus
 ```
 
 <p align='justify'>
-The pre-trained model checkpoints trained on jhmdb21 and ucf101-24 datasets can be downloaded from <a href=https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing>checkpoints</a>. Place the chekpoints at `exp\dataset-name\dla34\rgb\save-name\` to be compatible with the directory path definitions in the Centernet sripts. </p>
+The pre-trained model checkpoints trained on J-HMDB21 and UCF101-24 datasets can be downloaded from <a href=https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing>checkpoints</a>. Place the chekpoints at ```exp\dataset-name\dla34\rgb\save-name\``` to be compatible with the directory path definitions in the Centernet scripts. </p>
 
 ## Saving Detections
+For evaluation, the spatial detections needs to be saved as <I>.mat </I> files. First, navigate to ./Save Detections/ and execute the following command:
+```
+python CUDA_VISIBLE_DEVICES=0 python SaveDetections.py --dataset <dataset> --ngpu <gpu id> --exp_id <save dir name> --task doubleSM --frame_gap <default:1> --variant <default:1> --load_model /path/to/checkpoint --result_root /path/to/detections
+
+```
 
 ## Online Tube Generation
 
