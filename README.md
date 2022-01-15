@@ -72,7 +72,7 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 
 ### Setting up the CenterNet
 
-To setup CenterNet, use the instructions mentioned in their official [repository](https://github.com/xingyizhou/CenterNet) specifically during the installation of DCNv2. If you face an error regarding DCNv2, follow the instructions below.
+When seting up CenterNet, use the instructions mentioned in their official [repository](https://github.com/xingyizhou/CenterNet) to install DCNv2. The modified scripts for CenterNet are provided in this repository. If you face an error regarding DCNv2, follow the instructions below.
 
 1. **Build NMS**
 
