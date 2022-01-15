@@ -148,13 +148,11 @@ python CUDA_VISIBLE_DEVICES=0 python SaveDetections.py --dataset <dataset> --ngp
 ## Online Tube Generation
 
 After the spatial detections are saved for each video, the action tubes and paths are generated using the proposed online tube generation algorithm and its variation that are based on the [original implementation](https://github.com/Kalana304/realtime-action-detection) which is also provided for comparison. The codes can be found in `./online-tubes/`.
-
  - To run the code, you will need to install MATLAB. You can install a [free trial](https://www.mathworks.com/products/matlab.html) for testing purposes. 
  - If you only have command line priviledges, you can install [Octave](https://wiki.octave.org/Octave_for_Debian_systems) and execute the tube generation.
 
 
 
-1. Online Tube Generation with extrapolation and bbox approximation
 
 
 
