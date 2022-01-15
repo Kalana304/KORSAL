@@ -36,7 +36,44 @@ Download the datasets and extract the frames. Place the extracted frames in <emp
 </p>
 
 ## Training CenterNet
+
 ### Setting up the CenterNet
+
+To setup CenterNet, use the instructions mentioned in their official [repository](https://github.com/xingyizhou/CenterNet) specifically during the installation of DCNv2.
+
+If you face an error regarding DCNv2, follow the instructions below.
+
+1. **Build NMS**
+
+```
+cd CenterNet\src\lib\external
+#python setup.py install
+python setup.py build_ext --inplace
+```
+
+Comment out the parameter in setup.py when building `nms` extension to solve invalid numeric argument `/Wno-cpp` (the provided script by us has made the changes already):
+
+`
+# extra_compile_args=["-Wno-cpp", "-Wno-unused-function"]
+`
+
+2. **Clone and build original DCN2**
+
+```
+cd CenterNet\src\lib\models\networks
+rm -rf DCNv2
+git clone https://github.com/CharlesShang/DCNv2
+cd DCNv2
+
+vim cuda/dcn_va_cuda.cu
+"""
+# extern THCState *state;
+THCState *state = at::globalContext().lazyInitCUDA();
+"""
+
+python setup.py build develop
+
+```
 
 ### Training from the scratch
 To train from the scratch with either UCF101-24 or J-HMDB21 datasets, the following command can be run. 
