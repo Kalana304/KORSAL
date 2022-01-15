@@ -51,22 +51,29 @@ python setup.py build_ext --inplace
 
 Comment out the parameter in setup.py when building `nms` extension to solve invalid numeric argument `/Wno-cpp`: `#extra_compile_args=["-Wno-cpp", "-Wno-unused-function"]` (the provided script by us has made the changes already).
 
-2. **Clone and build original DCN2**
+2. **Clone and build original DCNv2**
 
 ```
 cd CenterNet\src\lib\models\networks
 rm -rf DCNv2
 git clone https://github.com/CharlesShang/DCNv2
-cd DCNv2
+```
 
+After cloning the original DCNv2, navigate to the directory and make the following changes:
+
+```
+cd DCNv2
 vim cuda/dcn_va_cuda.cu
 """
 # extern THCState *state;
 THCState *state = at::globalContext().lazyInitCUDA();
 """
+```
 
+Finally, execute the following command to build DCNv2:
+
+```
 python setup.py build develop
-
 ```
 
 ### Training from the scratch
