@@ -62,8 +62,9 @@ python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus
 To tranfer learn from a pre-trained checkpoint, run the following command.
 
 ```
-python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs (default: 60)> --variant <variation (default: 1)> --load_model <path to the saved model>
+python CUDA_VISIBLE_DEVICES=0 python main_SMDouble.py --dataset <dataset> --gpus <gpu id> --exp_id <save dir name> --task doubleSM --num_epochs <epochs (default: 60)> --variant <variation (default: 1)> --load_model /path/to/checkpoint
 ```
+
 <p align='justify'>
 The pre-trained model checkpoints trained on jhmdb21 and ucf101-24 datasets can be downloaded from <a href=https://drive.google.com/drive/folders/1jb5QfujoQngP4QqyN-PGvYba1jwhb9th?usp=sharing>checkpoints</a>. Place the chekpoints at &#60;dataset&#62;\dla34\rgb\ &#60;save dir name&#62; to be compatible with the directory path definitions in the Centernet sripts. </p>
 
