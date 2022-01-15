@@ -23,6 +23,34 @@ both online and offline methods. Moreover, our model achieves a frame rate of 41
 
 ## Installation
 
+The code was tested on Ubuntu 18.04, with Anaconda Python 3.7 and PyTorch v1.4.0. NVIDIA GPUs are needed for both training and testing. After install Anaconda:
+
+0. [Optional but recommended] create a new conda environment and activate the environment.
+```
+conda create --name CenterNet python=3.7
+conda activate CenterNet
+```
+1. Install pytorch 1.4.0:
+```
+conda install pytorch=1.4.0 torchvision -c pytorch
+```
+Based on original [repository](https://github.com/xingyizhou/CenterNet), there can be slight reduction in performances for spatial localization with `cudann batch normalization` enabled. You can manually open `torch/nn/functional.py` and find the line with `torch.batch_norm` and replace the `torch.backends.cudnn.enabled` with `False`. 
+
+2. Install [COCOAPI](https://github.com/cocodataset/cocoapi):
+```
+# COCOAPI=/path/to/clone/cocoapi
+git clone https://github.com/cocodataset/cocoapi.git $COCOAPI
+cd $COCOAPI/PythonAPI
+make
+python setup.py install --user
+```
+
+3. Install the requirements:
+```
+pip install -r requirements.txt
+```
+
+
 ## Datasets
 <p align='justify'>
 We evaluate our framework on two datasets, <a href=https://www.crcv.ucf.edu/data/UCF101.php>UCF101-24</a> and <a href=http://jhmdb.is.tue.mpg.de/>J-HMDB21</a>. UCF101-24 is a subset of UCF101<sup>[1]</sup> dataset with ST labels, having 3207 untrimmed videos with 24 action classes, that may contain multiple instances for the same action class. J-HMDB-21 is a subset of the HMDB51<sup>[2]</sup> dataset having 928 temporally trimmed videos with 21 actions, each containing a single action instance. 
@@ -113,6 +141,7 @@ python CUDA_VISIBLE_DEVICES=0 python SaveDetections.py --dataset <dataset> --ngp
 ```
 
 ## Online Tube Generation
+
 
 ## Performance
 <p align='justify'>
