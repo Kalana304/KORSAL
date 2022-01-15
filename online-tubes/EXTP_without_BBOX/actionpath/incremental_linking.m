@@ -1,4 +1,14 @@
 % -------------------------------------------------------------------------
+% Author - Kalana Abeywardena
+% Release Date - 31/07/2021
+% In this, the tubes are incremented for lost detections simply extrapolating
+% last assigned bbox in the tube for k number of lost detection & terminated 
+% to maintain online and real-time tube update. 
+% This can then be pipelines with CenterNet detections to run real-time 
+% action detection. 
+% -------------------------------------------------------------------------
+
+% -------------------------------------------------------------------------
 function live_paths = incremental_linking(frames,iouth,costtype,jumpgap,threhgap)
 % -------------------------------------------------------------------------
 
@@ -54,7 +64,7 @@ for  t = 1:num_frames
                     coverd_boxes(maxInd) = 1;
                     lm_score = m_score;
                 else
-                    % if there are no detections found 
+                    % if there are no detections found - To create the online real-time tube update
                     decay = 0;
                     live_paths(lp).count = live_paths(lp).count + 1;                                    % new
                     lpc = live_paths(lp).count;                                                         % new

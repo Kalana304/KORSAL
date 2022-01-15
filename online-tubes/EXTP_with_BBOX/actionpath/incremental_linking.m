@@ -1,4 +1,15 @@
 % -------------------------------------------------------------------------
+% Author - Kalana Abeywardena
+% Release Date - 31/07/2021
+% In this, the tubes are incremented for lost detections extrapolating tubes
+% with an approximated bbox based on the movement of bboxes between last two 
+% consecutive bboxes assigned to the respective actioen tube for k number of 
+% lost detection & terminated to maintain online and real-time tube update. 
+% This can then be pipelines with CenterNet detections to run real-time 
+% action detection. 
+% -------------------------------------------------------------------------
+
+% -------------------------------------------------------------------------
 function live_paths = incremental_linking(frames,iouth,costtype,jumpgap,threhgap)
 % -------------------------------------------------------------------------
 
@@ -54,8 +65,9 @@ for  t = 1:num_frames
                     coverd_boxes(maxInd) = 1;
                     lm_score = m_score;
                 else
-                    % if there are no detections found 
-                    decay = 0;
+                    % if there are no detections found - append the expolated bboxes from last assigned bboxes
+                    % in the respective action tube
+                    decay = 0;                                                                              % change based on your preference
                     live_paths(lp).count = live_paths(lp).count + 1;                                        % new
                     lpc = live_paths(lp).count;                                                             % new
                     live_paths(lp).boxes(lpc,:) = box_approx(live_paths(lp).boxes, lpc);                    % new
@@ -120,11 +132,13 @@ end
 
 live_paths = sort_paths(live_paths);
 
+% -------------------------------------------------------------------------
 function new_box = box_approx(boxes, lpc)
+% -------------------------------------------------------------------------
     if size(boxes,1) > 1
-        box1 = boxes(lpc-1,:);
-        box2 = boxes(lpc-2,:);
-        diffbox = box1 - box2; 
+        box1 = boxes(lpc-1,:);                  % last box assigned to action tube
+        box2 = boxes(lpc-2,:);                  % one before last box assigned to action tube
+        diffbox = box1 - box2;                  % calculating the movement between the two bboxes
         diffbox = min(diffbox, [3, 1, 3, 1]);
         new_box = box1 + diffbox;
         new_box = min(new_box, [320, 240, 320, 240]);

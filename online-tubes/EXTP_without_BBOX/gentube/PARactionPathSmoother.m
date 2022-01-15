@@ -28,7 +28,6 @@ parfor t = 1 : length(actionpaths)
 end
 
 action_count = 1;
-disp(length(actionpaths))
 for t = 1 : length(actionpaths)
     vid_tubes = alltubes{t};
     for  k=1:length(vid_tubes.ts)       % for each tube append the start value, ts, te and others into the struture
@@ -75,7 +74,6 @@ if ~isempty(video_paths)
                 final_tubes.starts(action_count) = action_paths(p).start;
                 final_tubes.ts(action_count) = Ts(k);
                 final_tubes.video_id{action_count} = video_id;
-                %     final_tubes.vid(action_count) = vid_num;
                 final_tubes.te(action_count) = Te(k);
                 final_tubes.dpActionScore(action_count) = Scores(k);
                 final_tubes.label(action_count) = Label(k);

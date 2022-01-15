@@ -5,6 +5,8 @@
 % Please retain this notice and LICENSE if you use
 % this file (or any portion of it) in your project.
 % ---------------------------------------------------------
+% Author: Kalana Abeywardena
+% Original code was changed based on our implementation
 
 function opts = initDatasetOpts(data_root,baseDir,dataset,imgType,model_type,listid,iteration_num,iouthresh,costtype,gap, exp_id)
 
@@ -19,8 +21,6 @@ opts.weight = iteration_num;        % iteration_num
 opts.listid = listid;               % split file no :: 01
 
 testlist = ['testlist',listid];
-% testlist = 'testlist_';
-%opts.vidList = sprintf('../../test_tmap/splitfiles/%s.txt',testlist);
 opts.vidList = sprintf('%s/%s/splitfiles/%s.txt',data_root, dataset, testlist)
 
 if strcmp(dataset,'ucf24')
@@ -41,15 +41,14 @@ end
 
 opts.imgDir = sprintf('%s/%s/%s-images/',data_root,dataset,imgType);
 
+% change this path based on where the detection files are saved.
 opts.detDir = sprintf('../../RealTime/%s/results/%s_%s_%s_100dets/',model_type, dataset, imgType, exp_id);
 
 opts.annotFile = sprintf('%s/%s/splitfiles/finalAnnots.ma.mat',data_root,dataset);
 
-opts.actPathDir = sprintf('%s/%s/%s_%s/actionPaths/',baseDir,dataset,imgType, exp_id);    % SHOULD CHANGE
-opts.tubeDir = sprintf('%s/%s/%s_%s/actionTubes/',baseDir,dataset,imgType, exp_id);       % SHOULD CHANGE
+opts.actPathDir = sprintf('%s/%s/%s_%s/actionPaths/',baseDir,dataset,imgType, exp_id);    
+opts.tubeDir = sprintf('%s/%s/%s_%s/actionTubes/',baseDir,dataset,imgType, exp_id);       
 
-% opts.actPathDir = sprintf('%s/%s/actionPaths/',baseDir,dataset);    % SHOULD CHANGE
-% opts.tubeDir = sprintf('%s/%s/actionTubes/',baseDir,dataset);       % SHOULD CHANGE
 
 if exist(opts.detDir,'dir')
     if ~isdir(opts.actPathDir)

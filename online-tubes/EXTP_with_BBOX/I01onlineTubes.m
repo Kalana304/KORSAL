@@ -5,17 +5,21 @@
 % Please retain this notice and LICENSE if you use
 % this file (or any portion of it) in your project.
 % ---------------------------------------------------------
+% Author: Kalana Abeywardena
+% This code uses a portion of the code with the above license.
+% Code is modified with the proposed changes for making 
+% it real-time and online. 
+
 %% This is main script to build tubes and evaluate them %%
 
 function I01onlineTubes()
 
-data_root = '../../../CenterNet/src/lib/data';
-save_root = '../../../finalresults/WBox_WExtra';
-% iteration_nums = [70000,120000,50000,90000]; % you can also evaluate on multiple iterations
+data_root = '../CenterNet/src/lib/data';
+save_root = '../Results/WBox_WExtra';
 iteration_nums = 120000;
-exp_id = 'doubleSM_variant1';        % update this based on the variant that is run
+exp_id = 'double_Gap1';                    % experiment name (for each experiment use a different id)
 model_type = 'Centernet';
-data_ = 'hmdb21';
+data_ = 'ucf24';                            % dataset name (change this based on the dataset used)
 
 % add subfolder to matlab paths
 addpath(genpath('gentube/'));
@@ -26,35 +30,30 @@ addpath(genpath('utils/'));
 if strcmp(data_, 'ucf24')
     completeList = {...
                     {'ucf24','01', {'rgb'}, iteration_nums,{'score'}},...
-                    {'ucf24','01', {'brox'}, iteration_nums,{'score'}}...
-                    {'ucf24','01', {'fastOF'}, iteration_nums,{'score'}}...
                     };
 elseif strcmp(data_, 'hmdb21')     
     completeList = {...
                     {'hmdb21','01', {'rgb'}, iteration_nums,{'score'}},...
-                    {'hmdb1','01', {'brox'}, iteration_nums,{'score'}}...
-                    {'hmdb1','01', {'fastOF'}, iteration_nums,{'score'}}...
                     };
 end
 
 alldopts = cell(2,1);
 count = 1;
-gap=5;                  % gap should be 5
+gap=5;                      
 
-for setind = 1 %:length(completeList)
-    [dataset, listid, imtypes, iteration_nums, costTypes] = enumurateList(completeList{setind});
-    for ct = 1:length(costTypes)
-        costtype = costTypes{ct};
-        for imtind = 1:length(imtypes)
-            imgType = imtypes{imtind};
-            for iteration = iteration_nums
-                for iouthresh=0.1
-                    %% generate directory sturcture based on the options
-                    dopts = initDatasetOpts(data_root,save_root,dataset,imgType,model_type,listid,iteration,iouthresh,costtype, gap, exp_id);
-                    if exist(dopts.detDir,'dir')
-                        alldopts{count} = dopts;
-                        count = count+1;
-                    end
+setind = 1
+[dataset, listid, imtypes, iteration_nums, costTypes] = enumurateList(completeList{setind});
+for ct = 1:length(costTypes)
+    costtype = costTypes{ct};
+    for imtind = 1:length(imtypes)
+        imgType = imtypes{imtind};
+        for iteration = iteration_nums
+            for iouthresh=0.1
+                %% generate directory sturcture based on the options
+                dopts = initDatasetOpts(data_root,save_root,dataset,imgType,model_type,listid,iteration,iouthresh,costtype, gap, exp_id);
+                if exist(dopts.detDir,'dir')
+                    alldopts{count} = dopts;
+                    count = count+1;
                 end
             end
         end
@@ -62,7 +61,7 @@ for setind = 1 %:length(completeList)
 end
 
 results = cell(2,1);
-disp(count)
+
 %% For each option type build tubes and evaluate them
 for index = 1:count-1
     opts = alldopts{index};
